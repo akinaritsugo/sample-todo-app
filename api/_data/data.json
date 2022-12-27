@@ -5,7 +5,7 @@
     "description": "",
     "priority": "1",
     "status": "",
-    "created": "2022-12-27T10:14:00"
+    "created": "2022-12-27T10:14:00.000Z"
   },
   {
     "id": "6632a2d9-a3d1-4976-9665-c96e9ba3d67e",
@@ -13,7 +13,7 @@
     "description": "",
     "priority": "2",
     "status": "",
-    "created": "2022-12-27T10:15:00"
+    "created": "2022-12-27T10:15:00.000Z"
   },
   {
     "id": "b193fdba-01ec-4917-8935-4cc0c3b06063",
@@ -21,6 +21,6 @@
     "description": "",
     "priority": "3",
     "status": "",
-    "created": "2022-12-27T10:18:00"
+    "created": "2022-12-27T10:18:00.000Z"
   }
 ]

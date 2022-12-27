@@ -6,15 +6,8 @@
       "direction": "in",
       "name": "req",
       "methods": [
-        "get"
+        "post"
       ]
-    },
-    {
-      "type": "table",
-      "direction": "in",
-      "name": "tasks",
-      "tableName": "Tasks",
-      "connection": "TASKS_TABLE_CONNECTION"
     },
     {
       "type": "http",
