@@ -1,0 +1,23 @@
+{
+  "name": "sample-todo-static-web-apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "swa start -a ./web/build -i ./api",
+    "debug": "swa start -D http://localhost:3000/ -i http://localhost:7071/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akinaritsugo/sample-todo-static-web-apps.git"
+  },
+  "author": "Akinari Tsugo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akinaritsugo/sample-todo-static-web-apps/issues"
+  },
+  "homepage": "https://github.com/akinaritsugo/sample-todo-static-web-apps#readme",
+  "dependencies": {
+    "@azure/static-web-apps-cli": "^1.0.4"
+  }
+}

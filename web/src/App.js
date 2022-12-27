@@ -1,11 +1,17 @@
 import CreateTask from './tasks/CreateTask';
 import ListTasks from './tasks/ListTasks';
 import './App.css';
-import data from './data.json';
 import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 async function loadTasks() {
-  return data;
+  try{
+    var res = await axios.get("/api/GetTasks");
+    return res.data;
+  }catch(err){
+    console.log(err.message);
+    throw err;
+  }
 };
 
 async function saveTask() {
