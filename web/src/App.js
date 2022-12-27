@@ -1,4 +1,5 @@
 import './App.css';
+import CreateTask from './tasks/CreateTask';
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       </header>
       <main>
         <div>
+          <CreateTask
+          />
         </div>
         <div>
         </div>
