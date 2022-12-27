@@ -1,4 +1,0 @@
-PartitionKey,RowKey,Timestamp,id,id@type,title,title@type,priority,priority@type,created,created@type
-,46231aae-1a63-4915-9e59-5c53ed8bcc00,2022-12-27T07:30:36.2491708Z,46231aae-1a63-4915-9e59-5c53ed8bcc00,Guid,Todoアプリを作る,String,1,Int32,2022-12-27T10:14:00.000Z,DateTime
-,6632a2d9-a3d1-4976-9665-c96e9ba3d67e,2022-12-27T07:30:41.9859063Z,6632a2d9-a3d1-4976-9665-c96e9ba3d67e,Guid,Todoアプリをデプロイする,String,2,Int32,2022-12-27T10:15:00.000Z,DateTime
-,b193fdba-01ec-4917-8935-4cc0c3b06063,2022-12-27T07:30:47.6986189Z,b193fdba-01ec-4917-8935-4cc0c3b06063,Guid,Todoアプリを閉域化する,String,3,Int32,2022-12-27T10:18:00.000Z,DateTime
